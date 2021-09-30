@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gestione_bot"
+version = "0.1.0"
+description = "A Gestione2 based telegram bot."
+authors = ["Nemesis <lorenzo.balugani@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+telepot = "^12.7"
+SQLAlchemy = "^1.4.23"
+psycopg2-binary = "^2.9.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
