@@ -1,6 +1,6 @@
 import os
 
-from gestione_bot.database.db import SessionLocal
+from chronos_bot.database.db import SessionLocal
 from enum import Enum
 import random
 import string
